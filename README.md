@@ -8,7 +8,7 @@ Variables have two visibility scopes (NO private scope) and they're set by the v
 Global variables need a full declaration explicitly defining the variable type.
 
 ### Constants
-Constants can be grouped in a paranthesis. iota is an incrementing counter in a specified constant block. One of the practical implementation is user roles and permissions using bitmasking.
+Constants can be grouped in paranthesis. __iota__ is an incrementing counter in a specified constant block. One of the practical implementation is user roles and permissions using bitmasking.
 
 ## Arrays and Slices
 Arrays are fixed collections that are passed by value. Slices on the other hand are pointers that point to the underlying array declaration. Using methods __cap()__ and __len()__ to check capacity and length.
